@@ -22,6 +22,9 @@ public class ArpaPeli {
         }
 
         
+        
         System.out.println("Peli päättyi.");
+ 
+     // Testataan toimiiko sovellus
     }
 }
