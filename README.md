@@ -1,30 +1,18 @@
-import java.util.Random;
+## Getting Started
 
-public class ArpaPeli {
-    public static void main(String[] args) {
-        Random random = new Random();
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-    //aloitetaan
-        int numero1 = random.nextInt(10) + 1;
-            int numero2 = random.nextInt(10) + 1;
-        int numero3 = random.nextInt(10) + 1;
+## Folder Structure
 
-    
-          System.out.println("Arvotut numerot ovat: " + numero1 + ", " + numero2 + ", " + numero3);
+The workspace contains two folders by default, where:
 
-        
-        if (numero1 == 7 || numero2 == 7 || numero3 == 7) {
-             System.out.println("Voitit!");
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
 
-             
-        } else {
-            System.out.println("Hävisit.");
-        }
+Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-        
-        
-        System.out.println("Peli päättyi.");
- 
-     // Testataan toimiiko sovellus
-    }
-}
+> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+
+## Dependency Management
+
+The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
