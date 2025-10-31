@@ -13,7 +13,7 @@ public class App {
          // kysytään toista numeroa
         System.out.println("Second number?");
           numero1 = in.nextInt();
-        
+        // Summataan muuttujat yhteen
          int sum = (numero + numero1);
           
          // printataan vastaus
