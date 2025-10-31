@@ -20,7 +20,7 @@ public class App {
         System.out.println("The sum is. " + sum + "." );
 
 
-        
+         // ohjelma valmis
          
     }
 }
